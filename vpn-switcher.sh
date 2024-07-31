@@ -29,7 +29,7 @@ connection()
             protonvpn-cli ks --permanent
             protonvpn-cli s
             echo "Successfully connected to the VPN"
-            echo "Exiting..."
+            echo "Exited"
             return
         fi
 
@@ -41,7 +41,7 @@ connection()
             protonvpn-cli d
             protonvpn-cli ks --off
             echo "Successfully disconnected from the VPN"
-            echo "Exiting..."
+            echo "Exited"
             return
         fi
 
